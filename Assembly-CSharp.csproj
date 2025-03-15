@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32C3BDE6-E125-3128-82C1-25D0441455A3}</ProjectGuid>
+    <ProjectGuid>{91C84E38-9661-7343-EE2A-61CEFA497334}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,8 @@
     <Compile Include="Assets\Practice_4\OrbitalCamera.cs" />
     <Compile Include="Assets\Practice_4\Movement.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Practice 5\PlayerController.cs" />
+    <Compile Include="Assets\Practice 5\Spawner.cs" />
     <Compile Include="Assets\Practice_4\CollisionHandler1.cs" />
     <Compile Include="Assets\Practice_2_3\Script.cs" />
     <Compile Include="Assets\Practice_2_3\CollisionHandler.cs" />

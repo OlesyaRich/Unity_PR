@@ -8,6 +8,6 @@ public class CollisionHandler1: MonoBehaviour
     {
         // Выводим имя объекта, с которым произошло столкновение
         Tag = collision.gameObject.tag;
-        Debug.Log("Произошло столкновение с: " + "\nTag = " + Tag + "; Name: " + GameObject.FindWithTag(Tag).name);
+        Debug.Log("Произошло столкновение " + gameObject.name + " с: " + "\nTag = " + Tag + "; Name: " + GameObject.FindWithTag(Tag).name);
     }
 }

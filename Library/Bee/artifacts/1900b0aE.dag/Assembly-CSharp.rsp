@@ -423,6 +423,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Practice 5/PlayerController.cs"
+"Assets/Practice 5/Spawner.cs"
 "Assets/Practice_2_3/CollisionHandler.cs"
 "Assets/Practice_2_3/Script.cs"
 "Assets/Practice_4/CollisionHandler1.cs"
