@@ -151,7 +151,6 @@ GameObject:
   - component: {fileID: 2675480279969749317}
   - component: {fileID: 4522070139292770126}
   - component: {fileID: 128051307839352432}
-  - component: {fileID: 2624032509605093473}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -289,19 +288,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 10
---- !u!114 &2624032509605093473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9186414900055224036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67f9e7317a8982942a501468a5e5af12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  strength: 20
-  speed: 5
-  jumpHeight: 2
