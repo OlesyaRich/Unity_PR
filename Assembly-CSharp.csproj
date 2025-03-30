@@ -60,18 +60,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Practice 6\PlayerController6.cs" />
+    <Compile Include="Assets\Project\Scripts\PlayerController6.cs" />
+    <Compile Include="Assets\Project\Scripts\PatrolController.cs" />
+    <Compile Include="Assets\Project\Scripts\Companion.cs" />
+    <Compile Include="Assets\Project\Scripts\MovingObject.cs" />
     <Compile Include="Assets\Practice_4\OrbitalCamera.cs" />
+    <Compile Include="Assets\Project\Scripts\AIController.cs" />
+    <Compile Include="Assets\Project\Scripts\ButtonInteract.cs" />
+    <Compile Include="Assets\Project\Scripts\SpeedZone.cs" />
     <Compile Include="Assets\Practice_4\Movement.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Practice 5\PlayerController.cs" />
-    <Compile Include="Assets\Practice 6\ButtonDestroy.cs" />
     <Compile Include="Assets\Practice 5\Spawner.cs" />
+    <Compile Include="Assets\Project\Scripts\ButtonDestroy.cs" />
     <Compile Include="Assets\Practice_4\CollisionHandler1.cs" />
     <Compile Include="Assets\Practice_2_3\Script.cs" />
     <Compile Include="Assets\Practice_2_3\CollisionHandler.cs" />
     <Compile Include="Assets\Practice_4\MouseLook.cs" />
-    <Compile Include="Assets\Practice 6\ButtonInteract.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

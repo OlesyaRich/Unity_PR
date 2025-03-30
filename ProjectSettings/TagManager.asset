@@ -8,11 +8,15 @@ TagManager:
   - Sphere
   - Button
   - Button2
+  - Button3
+  - Edge
+  - Jump
+  - NPC
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - Hide
