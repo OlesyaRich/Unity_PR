@@ -431,7 +431,7 @@
 "Assets/Practice_4/MouseLook.cs"
 "Assets/Practice_4/Movement.cs"
 "Assets/Practice_4/OrbitalCamera.cs"
-"Assets/Project/Scripts/AIController.cs"
+"Assets/Project/Scripts/AILinkMover.cs"
 "Assets/Project/Scripts/ButtonDestroy.cs"
 "Assets/Project/Scripts/ButtonInteract.cs"
 "Assets/Project/Scripts/Companion.cs"

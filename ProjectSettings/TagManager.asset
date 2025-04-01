@@ -9,9 +9,8 @@ TagManager:
   - Button
   - Button2
   - Button3
-  - Edge
-  - Jump
   - NPC
+  - Jump
   layers:
   - Default
   - TransparentFX
