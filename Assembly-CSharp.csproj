@@ -65,6 +65,7 @@
     <Compile Include="Assets\Project\Scripts\Companion.cs" />
     <Compile Include="Assets\Project\Scripts\MovingObject.cs" />
     <Compile Include="Assets\Practice_4\OrbitalCamera.cs" />
+    <Compile Include="Assets\Project\Scripts\AIController.cs" />
     <Compile Include="Assets\Project\Scripts\ButtonInteract.cs" />
     <Compile Include="Assets\Project\Scripts\SpeedZone.cs" />
     <Compile Include="Assets\Practice_4\Movement.cs" />
@@ -74,7 +75,6 @@
     <Compile Include="Assets\Project\Scripts\ButtonDestroy.cs" />
     <Compile Include="Assets\Practice_4\CollisionHandler1.cs" />
     <Compile Include="Assets\Practice_2_3\Script.cs" />
-    <Compile Include="Assets\Project\Scripts\AILinkMover.cs" />
     <Compile Include="Assets\Practice_2_3\CollisionHandler.cs" />
     <Compile Include="Assets\Practice_4\MouseLook.cs" />
   </ItemGroup>

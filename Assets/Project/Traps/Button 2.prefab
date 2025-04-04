@@ -121,5 +121,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29fb43919b9c05341912d75ea77ada4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trapPrefab: {fileID: 3180599535345717123, guid: ea151468faebde34395bc17310bd9edb, type: 3}
+  trapPrefab: {fileID: 5070901935645009167, guid: baec6f8bd97304e4b8d6890ffa1fb978, type: 3}
   spawnPoint: {fileID: 5296233190917614698, guid: bea0111661f3ff648b99e67666e15fbb, type: 3}
