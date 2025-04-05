@@ -49,7 +49,6 @@ public class PlayerController6 : MonoBehaviour
         movement = transform.TransformDirection(movement);
         movement = Vector3.ClampMagnitude(movement, speed);
 
-
         if (isGrounded && Input.GetButtonDown("Jump")) // Обработка прыжка
         {
             velocity.y += Mathf.Sqrt(jumpHeight * -2f * gravity); // Расчет скорости прыжка
