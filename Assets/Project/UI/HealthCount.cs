@@ -26,15 +26,18 @@ public class HealthCount : MonoBehaviour
 
     private void LoseHealth(int amount)
     {
-        currHealth -= amount; // Уменьшаем здоровье
-        healthText.text = $"Health: {currHealth}";
-        Debug.Log($"Health: {currHealth}"); // Выводим текущее здоровье в консоль
-
-        if (currHealth <= 0)
+        if (currHealth > 0)
         {
-            Debug.Log("Player is dead!");
+            currHealth -= amount; // Уменьшаем здоровье
+            healthText.text = $"Health: {currHealth}";
+            //Debug.Log($"Health: {currHealth}"); // Выводим текущее здоровье в консоль
+        }
+        if (currHealth == 0)
+        {
+            //Debug.Log("Player is dead!");
             Instantiate(textDead, GameObject.Find("/Canvas").transform);
             //SceneManager.LoadScene("MainMenu");
         }
+
     }
 }

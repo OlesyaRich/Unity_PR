@@ -80,7 +80,7 @@ public class PlayerController6 : MonoBehaviour
 
         if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, 3f))
         {
-             if (hit.collider.CompareTag("Button"))
+            if (hit.collider.CompareTag("Button"))
             {
                 hit.collider.GetComponent<ButtonInteract>().ActivateTrap();
                 hit.collider.GetComponent<ButtonDestroy>().ActivateTrap();
@@ -92,6 +92,10 @@ public class PlayerController6 : MonoBehaviour
             if (hit.collider.CompareTag("Button3"))
             {
                 hit.collider.GetComponent<ButtonDestroy>().ActivateTrap();
+            }
+            if (hit.collider.CompareTag("Button4"))
+            {
+                hit.collider.GetComponent<ButtonInteract>().ActivateTrap();
             }
         }
     }
