@@ -441,9 +441,11 @@
 "Assets/Project/Scripts/MovingObject.cs"
 "Assets/Project/Scripts/PatrolController.cs"
 "Assets/Project/Scripts/PlayerController6.cs"
+"Assets/Project/Scripts/SoundPlayer.cs"
 "Assets/Project/Scripts/SpeedZone.cs"
 "Assets/Project/UI/HealthCount.cs"
 "Assets/Project/UI/PauseMenu.cs"
+"Assets/Project/UI/SoundMenu.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

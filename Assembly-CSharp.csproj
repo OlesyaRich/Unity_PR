@@ -63,6 +63,7 @@
     <Compile Include="Assets\Project\Person\PersonAnimation.cs" />
     <Compile Include="Assets\Project\Scripts\PlayerController6.cs" />
     <Compile Include="Assets\Project\Scripts\PatrolController.cs" />
+    <Compile Include="Assets\Project\Scripts\SoundPlayer.cs" />
     <Compile Include="Assets\Project\Scripts\Companion.cs" />
     <Compile Include="Assets\Practices\Practice 5\PlayerController.cs" />
     <Compile Include="Assets\Practices\Practice_4\Movement.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Project\UI\HealthCount.cs" />
     <Compile Include="Assets\Project\Scripts\AIController.cs" />
     <Compile Include="Assets\Project\Scripts\ButtonInteract.cs" />
+    <Compile Include="Assets\Project\UI\SoundMenu.cs" />
     <Compile Include="Assets\Project\Scripts\SpeedZone.cs" />
     <Compile Include="Assets\Practices\Practice_4\CollisionHandler1.cs" />
     <Compile Include="Assets\Menu\MainMenu.cs" />
