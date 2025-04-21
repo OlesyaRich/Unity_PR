@@ -10,12 +10,10 @@ public class HealthCount : MonoBehaviour
     public GameObject player;
     public GameObject textDead;
 
-
     void Start()
     {
         healthText.text = $"Health: {currHealth}";
     }
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -38,6 +36,5 @@ public class HealthCount : MonoBehaviour
             //Instantiate(textDead, GameObject.Find("/Canvas").transform);
             //SceneManager.LoadScene("MainMenu");
         }
-
     }
 }

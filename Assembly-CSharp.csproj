@@ -76,6 +76,7 @@
     <Compile Include="Assets\Project\UI\SoundMenu.cs" />
     <Compile Include="Assets\Project\Scripts\SpeedZone.cs" />
     <Compile Include="Assets\Practices\Practice_4\CollisionHandler1.cs" />
+    <Compile Include="Assets\Project\Scripts\SoundSmoke.cs" />
     <Compile Include="Assets\Menu\MainMenu.cs" />
     <Compile Include="Assets\Practices\Practice_4\OrbitalCamera.cs" />
     <Compile Include="Assets\Practices\Practice_2_3\Script.cs" />

@@ -96,6 +96,7 @@ public class PlayerController6 : MonoBehaviour
             if (hit.collider.CompareTag("Button4"))
             {
                 hit.collider.GetComponent<ButtonInteract>().ActivateTrap();
+                hit.collider.GetComponent<SoundSmoke>().PlaySound();
             }
         }
     }

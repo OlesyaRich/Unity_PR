@@ -251,6 +251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 11730631}
   - component: {fileID: 11730632}
+  - component: {fileID: 11730633}
   m_Layer: 0
   m_Name: ButtonSound
   m_TagString: Untagged
@@ -370,6 +371,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!168 &11730633
+AudioEchoFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11730630}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Delay: 500
+  m_DecayRatio: 0.5
+  m_WetMix: 1
+  m_DryMix: 1
 --- !u!1 &21195692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,18 +1121,18 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: c27a065d6a3ea844f9d3fed8ebd0f224, type: 3}
   m_Resource: {fileID: 8300000, guid: c27a065d6a3ea844f9d3fed8ebd0f224, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 30
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -4764,6 +4778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1194906914}
   - component: {fileID: 1194906915}
+  - component: {fileID: 1194906916}
   m_Layer: 0
   m_Name: JumpSound
   m_TagString: Untagged
@@ -4799,7 +4814,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: ab52b2b945f50694a9d8d72509b7b058, type: 3}
   m_Resource: {fileID: 8300000, guid: ab52b2b945f50694a9d8d72509b7b058, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4883,6 +4898,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!164 &1194906916
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194906913}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: 0
+  m_RoomHF: 0
+  m_DecayTime: 1
+  m_DecayHFRatio: 0.5
+  m_ReflectionsLevel: -10000
+  m_ReverbLevel: 0
+  m_ReverbDelay: 0.04
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 27
 --- !u!1 &1252909157
 GameObject:
   m_ObjectHideFlags: 0
@@ -4896,6 +4934,7 @@ GameObject:
   - component: {fileID: 1252909161}
   - component: {fileID: 1252909160}
   - component: {fileID: 1252909159}
+  - component: {fileID: 1252909163}
   m_Layer: 0
   m_Name: Button 4 Smoke
   m_TagString: Button4
@@ -5006,6 +5045,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252909157}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1252909163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252909157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc56ae30f5570c44ab9de001d702563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlameSound: {fileID: 212114539}
+  SmokeSound: {fileID: 2024740656}
 --- !u!1 &1294375866
 GameObject:
   m_ObjectHideFlags: 0
@@ -5735,6 +5788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1535120529}
   - component: {fileID: 1535120530}
+  - component: {fileID: 1535120531}
   m_Layer: 0
   m_Name: RunSound
   m_TagString: Untagged
@@ -5770,7 +5824,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 479d73239b03afd4ea73bd888103b471, type: 3}
   m_Resource: {fileID: 8300000, guid: 479d73239b03afd4ea73bd888103b471, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5854,6 +5908,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!164 &1535120531
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535120528}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: 0
+  m_RoomHF: 0
+  m_DecayTime: 1
+  m_DecayHFRatio: 0.5
+  m_ReflectionsLevel: -10000
+  m_ReverbLevel: 0
+  m_ReverbDelay: 0.04
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 27
 --- !u!1 &1537882225
 GameObject:
   m_ObjectHideFlags: 0
@@ -6878,16 +6955,16 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 30
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0

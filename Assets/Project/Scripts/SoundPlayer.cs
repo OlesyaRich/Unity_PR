@@ -16,12 +16,10 @@ public class SoundPlayer : MonoBehaviour
         {
             SoundOff(RunSound);
         }
-
         if (Input.GetKeyDown(KeyCode.Space)) //Прыжок
         {
             PlaySound(JumpSound);
         }
-
         if (Input.GetKeyDown(KeyCode.F)) //Взаимодействие с кнопкой
         {
             PlaySound(ButtonSound);

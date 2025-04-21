@@ -442,6 +442,7 @@
 "Assets/Project/Scripts/PatrolController.cs"
 "Assets/Project/Scripts/PlayerController6.cs"
 "Assets/Project/Scripts/SoundPlayer.cs"
+"Assets/Project/Scripts/SoundSmoke.cs"
 "Assets/Project/Scripts/SpeedZone.cs"
 "Assets/Project/UI/HealthCount.cs"
 "Assets/Project/UI/PauseMenu.cs"
