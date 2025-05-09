@@ -98,6 +98,10 @@ public class PlayerController6 : MonoBehaviour
                 hit.collider.GetComponent<ButtonInteract>().ActivateTrap();
                 hit.collider.GetComponent<SoundSmoke>().PlaySound();
             }
+            if (hit.collider.CompareTag("Button5"))
+            {
+                hit.collider.GetComponent<ToNextScene>().ActivateTrap();
+            }
         }
     }
 

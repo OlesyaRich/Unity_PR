@@ -444,6 +444,7 @@
 "Assets/Project/Scripts/SoundPlayer.cs"
 "Assets/Project/Scripts/SoundSmoke.cs"
 "Assets/Project/Scripts/SpeedZone.cs"
+"Assets/Project/Scripts/ToNextScene.cs"
 "Assets/Project/UI/HealthCount.cs"
 "Assets/Project/UI/PauseMenu.cs"
 "Assets/Project/UI/SoundMenu.cs"
