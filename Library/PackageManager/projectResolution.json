@@ -119,36 +119,6 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.xr.interaction.toolkit@3.0.8": {
-      "name": "com.unity.xr.interaction.toolkit",
-      "displayName": "XR Interaction Toolkit",
-      "resolvedPath": "D:\\Olesya\\Институт\\МИРЭА\\6 сем\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea",
-      "fingerprint": "7e188ec401eaff99ad6b91aca36b2f657e06be7a",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "3.0.8",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.xr.mock-hmd@1.4.0-preview.2": {
-      "name": "com.unity.xr.mock-hmd",
-      "displayName": "MockHMD XR Plugin",
-      "resolvedPath": "D:\\Olesya\\Институт\\МИРЭА\\6 сем\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.mock-hmd@bf4cb37c5d7a",
-      "fingerprint": "bf4cb37c5d7a4b8dbfc9c398afe865e8bff26226",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.4.0-preview.2",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.xr.openxr@1.14.3": {
-      "name": "com.unity.xr.openxr",
-      "displayName": "OpenXR Plugin",
-      "resolvedPath": "D:\\Olesya\\Институт\\МИРЭА\\6 сем\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.openxr@3903c1059bcf",
-      "fingerprint": "3903c1059bcf18e6a894f8aa2076f2a8267716bd",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.14.3",
-      "source": "registry",
-      "testable": false
-    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
@@ -421,46 +391,6 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.xr.core-utils@2.5.1": {
-      "name": "com.unity.xr.core-utils",
-      "displayName": "XR Core Utilities",
-      "resolvedPath": "D:\\Olesya\\Институт\\МИРЭА\\6 сем\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.core-utils@c0df0dd5bced",
-      "fingerprint": "c0df0dd5bced783e855e63d640484ff72ea7dea8",
-      "editorCompatibility": "2021.3.0f1",
-      "version": "2.5.1",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.xr.management@4.5.0": {
-      "name": "com.unity.xr.management",
-      "displayName": "XR Plugin Management",
-      "resolvedPath": "D:\\Olesya\\Институт\\МИРЭА\\6 сем\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.management@3126858600e6",
-      "fingerprint": "3126858600e621b17ff9bfda920ebf34b9f2414c",
-      "editorCompatibility": "2020.3.15f1",
-      "version": "4.5.0",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.xr.legacyinputhelpers@2.1.12": {
-      "name": "com.unity.xr.legacyinputhelpers",
-      "displayName": "XR Legacy Input Helpers",
-      "resolvedPath": "D:\\Olesya\\Институт\\МИРЭА\\6 сем\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
-      "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
-      "editorCompatibility": "2019.4.0a1",
-      "version": "2.1.12",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.mathematics@1.3.2": {
-      "name": "com.unity.mathematics",
-      "displayName": "Mathematics",
-      "resolvedPath": "D:\\Olesya\\Институт\\МИРЭА\\6 сем\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
-      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.3.2",
-      "source": "registry",
-      "testable": false
-    },
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
@@ -518,6 +448,16 @@
       "fingerprint": "7a907cf5a4591e4e25f4203e3be84f240058c34d",
       "editorCompatibility": "2020.3.0a1",
       "version": "1.8.19",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+      "displayName": "Mathematics",
+      "resolvedPath": "D:\\Olesya\\Институт\\МИРЭА\\6 сем\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.2",
       "source": "registry",
       "testable": false
     },

@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638828314937045113
-    m_Hash: 1668355490
+      ticks: 638759168039407073
+    m_Hash: 3706123388
   m_LockFileStatus:
     m_FilePath: "D:/Olesya/\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442/\u041C\u0418\u0420\u042D\u0410/6
       \u0441\u0435\u043C/Unity/Unity_PR/Packages/packages-lock.json"
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638828314937215056
-    m_Hash: 3013827546
+      ticks: 638759168039647066
+    m_Hash: 732711565
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -58,7 +58,6 @@ m_ResolvedPackages:
     - 1.1.3
     - 1.1.4
     - 1.1.5
-    - 1.1.6
     - 2.0.0-pre.3
     - 2.0.0-pre.4
     - 2.0.0
@@ -66,11 +65,9 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     - 2.0.6
-    - 2.0.7
     compatible:
     - 2.0.6
-    - 2.0.7
-    recommended: 2.0.7
+    recommended: 2.0.6
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -244,13 +241,9 @@ m_ResolvedPackages:
     - 2.5.2
     - 2.6.0
     - 2.7.1
-    - 2.8.1
-    - 2.8.2
     compatible:
     - 2.6.0
     - 2.7.1
-    - 2.8.1
-    - 2.8.2
     recommended: 2.6.0
     deprecated: []
   dependencies: []
@@ -400,14 +393,10 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     - 3.0.34
-    - 3.0.35
-    - 3.0.36
     compatible:
     - 3.0.31
     - 3.0.34
-    - 3.0.35
-    - 3.0.36
-    recommended: 3.0.36
+    recommended: 3.0.34
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -504,11 +493,9 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
-    - 2.0.23
     compatible:
     - 2.0.22
-    - 2.0.23
-    recommended: 2.0.23
+    recommended: 2.0.22
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -642,11 +629,9 @@ m_ResolvedPackages:
     - 1.12.0
     - 1.13.0
     - 1.13.1
-    - 1.14.0
     compatible:
     - 1.13.0
     - 1.13.1
-    - 1.14.0
     recommended: 1.13.1
     deprecated: []
   dependencies:
@@ -1531,500 +1516,6 @@ m_ResolvedPackages:
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.9.5
-    minimumUnityVersion: 2021.3.0a1
-- packageId: com.unity.xr.interaction.toolkit@3.0.8
-  testable: 0
-  isDirectDependency: 1
-  version: 3.0.8
-  source: 1
-  resolvedPath: "D:\\Olesya\\\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\\\u041C\u0418\u0420\u042D\u0410\\6
-    \u0441\u0435\u043C\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea"
-  assetPath: Packages/com.unity.xr.interaction.toolkit
-  name: com.unity.xr.interaction.toolkit
-  displayName: XR Interaction Toolkit
-  author:
-    name: 
-    email: 
-    url: 
-  category: XR
-  type: 
-  description: A high-level, component-based, interaction system for creating VR
-    and AR experiences. It provides a framework that makes 3D and UI interactions
-    available from Unity input events. The core of this system is a set of base Interactor
-    and Interactable components, and an Interaction Manager that ties these two types
-    of components together. It also contains components that you can use for locomotion
-    and drawing visuals.
-  errors: []
-  versions:
-    all:
-    - 0.0.6-preview
-    - 0.9.0-preview
-    - 0.9.1-preview
-    - 0.9.2-preview
-    - 0.9.3-preview
-    - 0.9.4-preview
-    - 0.10.0-preview.7
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    - 1.0.0-pre.4
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.0.0-pre.8
-    - 2.0.0-pre.5
-    - 2.0.0-pre.6
-    - 2.0.0-pre.7
-    - 2.0.0
-    - 2.0.1
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
-    - 2.1.0-pre.1
-    - 2.1.1
-    - 2.2.0
-    - 2.3.0-pre.1
-    - 2.3.0
-    - 2.3.1
-    - 2.3.2
-    - 2.4.0-pre.1
-    - 2.4.0-pre.2
-    - 2.4.0
-    - 2.4.1
-    - 2.4.3
-    - 2.5.0
-    - 2.5.1
-    - 2.5.2
-    - 2.5.3
-    - 2.5.4
-    - 2.6.3
-    - 2.6.4
-    - 3.0.0-pre.1
-    - 3.0.0-pre.2
-    - 3.0.0
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.1.0-pre.1
-    - 3.1.0
-    - 3.1.1
-    - 3.1.2
-    - 3.2.0-pre.1
-    compatible:
-    - 3.0.7
-    - 3.0.8
-    - 3.1.0-pre.1
-    - 3.1.0
-    - 3.1.1
-    - 3.1.2
-    - 3.2.0-pre.1
-    recommended: 3.0.8
-    deprecated: []
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.inputsystem
-    version: 1.8.1
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.xr.core-utils
-    version: 2.2.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.inputsystem
-    version: 1.13.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  - name: com.unity.xr.core-utils
-    version: 2.5.1
-  keywords:
-  - XR
-  - VR
-  - toolkit
-  - interaction
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638786697179370000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
-    revision: 31b5fd0c207765ee920931e5d92b837d3a46e35e
-    path: 
-  unityLifecycle:
-    version: 3.0.7
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Added\n- Added a Drag Start Position Input property
-    to the Screen Space Ray Pose Driver component to improve the ability to select
-    a dragged object in AR projects. The ray will be initially cast from the touch
-    start position instead of the current drag position when the drag gesture starts
-    in order to improve the ability to pick small objects. (Backport from 3.1.0)\n-
-    Added a Tap Duration property to the Touchscreen Gesture Input Loader component
-    to configure the threshold that a touch and release must occur within for a tap
-    gesture. (Backport from 3.1.0)\n\n### Changed\n- Changed scripts to improve performance
-    of processing interaction strength (tagged `XRI.ProcessInteractionStrength` in
-    Profiler). (Backport from 3.1.0-pre.1)\n- Changed the tap cancel duration from
-    0.3 seconds to 0.5 seconds on the `TouchscreenGestureInputController` input device
-    created by the Touchscreen Gesture Input Loader component. This affects the `Screen
-    Space Ray Interactor` prefab in the AR Starter Assets sample. This should make
-    selecting objects more forgiving with a slower tap. ([XRIT-208](https://issuetracker.unity3d.com/product/unity/issues/guid/XRIT-208))
-    (Backport from 3.1.0)\n- Changed the Max Tap Duration on the Tap interactions
-    from the default Input System (0.2 seconds) to 0.5 seconds on the mouse bindings
-    in both the Tap Start Position and Spawn Object input actions. This should make
-    selecting and spawning objects more forgiving with a slower tap when using the
-    mouse when simulating in the Unity Editor. ([XRIT-208](https://issuetracker.unity3d.com/product/unity/issues/guid/XRIT-208))
-    (Backport from 3.1.0)\n- Changed Spawn Trigger Type from Select Attempt to Input
-    Action on the AR Interactor Spawn Trigger component in the `Screen Space Ray
-    Interactor` prefab in the AR Starter Assets sample. Changed the binding in the
-    Spawn Object input action to use the tap gesture in the `TouchscreenGestureInputController`
-    input device instead of the generic `<Touchscreen>/Press` binding with the Tap
-    interaction so that spawning uses consistent tap cancel logic as selection taps.
-    (Backport from 3.1.0)\n- Changed Min Scale from 0.05 to 0.2 on the AR Transformer
-    component on each of the spawning objects in the `ARDemoScene`. (Backport from
-    3.1.0)\n- Changed `RigidBody.Interpolate` to `None` for interactables in the
-    `HandsDemoScene` to fix interactable position issues when the table is moved.
-    (Backport from 3.1.0)\n- Changed `XRRayInteractor.TryGetHitInfo` to return the
-    hit info of the selected interactable or highest scored interactable instead
-    of the nearest raycast hit. ([XRIT-141](https://issuetracker.unity3d.com/product/unity/issues/guid/XRIT-141))
-    (Backport from 3.1.0)\n\n### Fixed\n- Fixed `BaseAffordanceStateProvider` so
-    it passes the previous `AffordanceStateData` to custom affordance state receivers.
-    (Backport from 3.1.0-pre.1)\n- Fixed an issue with the `XRPokeInteractor` that
-    would attempt to register a valid target for each collider that was poked for
-    a single interactable. ([XRIT-209](https://issuetracker.unity3d.com/product/unity/issues/guid/XRIT-209))
-    (Backport from 3.1.0)\n- Fixed the AR Interactor Spawn Trigger component in the
-    AR Starter Assets sample to avoid spawning a new object when tapping to select
-    an existing object caused by the Spawn Object and Select inputs using different
-    binding sources that have a frame delay. (Backport from 3.1.0)\n- Fixed missing
-    tooltip on the Sphere Interaction Caster component for the Physics Trigger Interaction
-    property. Updated all related tooltips and documentation to clarify that Use
-    Global refers to the Queries Hit Triggers setting in Edit &gt; Project Settings
-    &gt; Physics. (Backport from 3.1.0)\n- Fixed compilation issue in `OpenXRHapticImpulseChannel`
-    related to `OpenXRInput.GetActionHandle` when OpenXR Plugin package version 1.6.0
-    is installed. (Backport from 3.1.0)\n- Fixed issue with input field caret position
-    when using mouse and keyboard input on `XRKeyboardDisplay` input fields. Users
-    will need to reimport the Spatial Keyboard sample to get the updated component
-    script. ([XRIT-230](https://issuetrac"}'
-  assetStore:
-    productId: 
-  fingerprint: 7e188ec401eaff99ad6b91aca36b2f657e06be7a
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 3.0.7
-    minimumUnityVersion: 2021.3.0a1
-- packageId: com.unity.xr.mock-hmd@1.4.0-preview.2
-  testable: 0
-  isDirectDependency: 1
-  version: 1.4.0-preview.2
-  source: 1
-  resolvedPath: "D:\\Olesya\\\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\\\u041C\u0418\u0420\u042D\u0410\\6
-    \u0441\u0435\u043C\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.mock-hmd@bf4cb37c5d7a"
-  assetPath: Packages/com.unity.xr.mock-hmd
-  name: com.unity.xr.mock-hmd
-  displayName: MockHMD XR Plugin
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Provides rendering and input support for XR MockHMD.
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.1
-    - 1.0.0-preview.2
-    - 1.0.1-preview.3
-    - 1.0.1-preview.4
-    - 1.0.1-preview.5
-    - 1.0.1-preview.6
-    - 1.0.1-preview.7
-    - 1.1.0-preview.1
-    - 1.1.1-preview.1
-    - 1.1.2-preview.1
-    - 1.1.3-preview.1
-    - 1.2.0-preview.1
-    - 1.3.0-preview.1
-    - 1.3.1-preview.1
-    - 1.4.0-preview.2
-    compatible:
-    - 1.0.0-preview.1
-    - 1.0.0-preview.2
-    - 1.0.1-preview.3
-    - 1.0.1-preview.4
-    - 1.0.1-preview.5
-    - 1.0.1-preview.6
-    - 1.0.1-preview.7
-    - 1.1.0-preview.1
-    - 1.1.1-preview.1
-    - 1.1.2-preview.1
-    - 1.1.3-preview.1
-    - 1.2.0-preview.1
-    - 1.3.0-preview.1
-    - 1.3.1-preview.1
-    - 1.4.0-preview.2
-    recommended: 
-    deprecated: []
-  dependencies:
-  - name: com.unity.xr.management
-    version: 4.0.1
-  resolvedDependencies:
-  - name: com.unity.xr.management
-    version: 4.5.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.12
-  keywords:
-  - mock-hmd
-  - xr
-  - reality
-  - xreditorsubsystem
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638500028990000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.mock-hmd@1.4/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.mock-hmd.git
-    revision: da988b45ffbae3f02c1204ca1c9a0c4e8da64261
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"* Added foveated rendering support for Metal."}'
-  assetStore:
-    productId: 
-  fingerprint: bf4cb37c5d7a4b8dbfc9c398afe865e8bff26226
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0-preview.1
-    minimumUnityVersion: 2021.3.0a1
-- packageId: com.unity.xr.openxr@1.14.3
-  testable: 0
-  isDirectDependency: 1
-  version: 1.14.3
-  source: 1
-  resolvedPath: "D:\\Olesya\\\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\\\u041C\u0418\u0420\u042D\u0410\\6
-    \u0441\u0435\u043C\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.openxr@3903c1059bcf"
-  assetPath: Packages/com.unity.xr.openxr
-  name: com.unity.xr.openxr
-  displayName: OpenXR Plugin
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: OpenXR is an open, royalty-free standard developed by Khronos that
-    aims to simplify AR/VR development by allowing developers to target a wide range
-    of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
-  errors: []
-  versions:
-    all:
-    - 0.1.1-preview.1
-    - 0.1.2-preview.2
-    - 1.0.0-pre.1
-    - 1.0.2
-    - 1.0.3
-    - 1.1.1
-    - 1.2.0
-    - 1.2.2
-    - 1.2.3
-    - 1.2.8
-    - 1.3.0
-    - 1.3.1
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.5.0-exp.1
-    - 1.5.0
-    - 1.5.1
-    - 1.5.3
-    - 1.6.0
-    - 1.7.0
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.9.1
-    - 1.10.0
-    - 1.11.0-exp.1
-    - 1.11.0
-    - 1.11.1-exp.1
-    - 1.12.0-exp.1
-    - 1.12.0
-    - 1.12.1
-    - 1.13.0
-    - 1.13.1
-    - 1.13.2
-    - 1.14.0
-    - 1.14.1
-    - 1.14.2
-    - 1.14.3
-    - 1.15.0-pre.1
-    compatible:
-    - 1.14.0
-    - 1.14.1
-    - 1.14.2
-    - 1.14.3
-    - 1.15.0-pre.1
-    recommended: 1.14.3
-    deprecated: []
-  dependencies:
-  - name: com.unity.inputsystem
-    version: 1.6.3
-  - name: com.unity.xr.core-utils
-    version: 2.3.0
-  - name: com.unity.xr.management
-    version: 4.4.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.2
-  resolvedDependencies:
-  - name: com.unity.inputsystem
-    version: 1.13.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.xr.core-utils
-    version: 2.5.1
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.5.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.12
-  keywords:
-  - openxr
-  - xr
-  - reality
-  - xreditorsubsystem
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638805963720360000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.14/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: dfe5bbd1c85c3045274fef73de823c443285b5d8
-    path: 
-  unityLifecycle:
-    version: 1.14.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n* Fixed Multiview Render Regions feature
-    regression."}'
-  assetStore:
-    productId: 
-  fingerprint: 3903c1059bcf18e6a894f8aa2076f2a8267716bd
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.14.0
     minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
@@ -4447,487 +3938,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-- packageId: com.unity.xr.core-utils@2.5.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.5.1
-  source: 1
-  resolvedPath: "D:\\Olesya\\\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\\\u041C\u0418\u0420\u042D\u0410\\6
-    \u0441\u0435\u043C\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.core-utils@c0df0dd5bced"
-  assetPath: Packages/com.unity.xr.core-utils
-  name: com.unity.xr.core-utils
-  displayName: XR Core Utilities
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: "Common utility classes for XR projects\nRefer to API documentation
-    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
-    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
-    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
-    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
-    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
-    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
-    XR Origin Implementation"
-  errors: []
-  versions:
-    all:
-    - 2.0.0-pre.3
-    - 2.0.0-pre.5
-    - 2.0.0-pre.6
-    - 2.0.0
-    - 2.0.1
-    - 2.1.0-pre.1
-    - 2.1.0
-    - 2.1.1
-    - 2.2.0-pre.1
-    - 2.2.0-pre.2
-    - 2.2.0
-    - 2.2.1
-    - 2.2.2
-    - 2.2.3
-    - 2.3.0-pre.1
-    - 2.3.0-pre.2
-    - 2.3.0-pre.3
-    - 2.3.0
-    - 2.4.0-exp.1
-    - 2.4.0-exp.2
-    - 2.4.0-exp.3
-    - 2.4.0
-    - 2.5.0
-    - 2.5.1
-    - 2.5.2
-    compatible:
-    - 2.5.1
-    - 2.5.2
-    recommended: 2.5.2
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  keywords:
-  - xr
-  - ar
-  - augmented
-  - reality
-  - utility
-  - utilities
-  - core
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638702602921400000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.5/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
-    revision: 4e87c05742e9f9b1fe5deaf63303e38251671e2b
-    path: 
-  unityLifecycle:
-    version: 2.5.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fixed the `==` and `!=` operators for
-    `ReadOnlyList<T>` so that they can''t cause a stack overflow."}'
-  assetStore:
-    productId: 
-  fingerprint: c0df0dd5bced783e855e63d640484ff72ea7dea8
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.5.1
-    minimumUnityVersion: 2021.3.0f1
-- packageId: com.unity.xr.management@4.5.0
-  testable: 0
-  isDirectDependency: 0
-  version: 4.5.0
-  source: 1
-  resolvedPath: "D:\\Olesya\\\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\\\u041C\u0418\u0420\u042D\u0410\\6
-    \u0441\u0435\u043C\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.management@3126858600e6"
-  assetPath: Packages/com.unity.xr.management
-  name: com.unity.xr.management
-  displayName: XR Plugin Management
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Package that provides simple management of XR plug-ins. Manages and
-    offers help with loading, initialization, settings, and build support for XR
-    plug-ins.
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.8
-    - 0.1.0-preview.12
-    - 1.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.0.0-preview.6
-    - 2.0.0-preview.9
-    - 2.0.0-preview.10
-    - 2.0.0-preview.13
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0-preview.24
-    - 2.0.0-preview.25
-    - 2.0.0-preview.26
-    - 3.0.1
-    - 3.0.2-preview.1
-    - 3.0.2-preview.2
-    - 3.0.3
-    - 3.0.4-preview.1
-    - 3.0.4-preview.3
-    - 3.0.4
-    - 3.0.5-preview.1
-    - 3.0.5
-    - 3.0.6-preview.2
-    - 3.0.6
-    - 3.1.0-preview.2
-    - 3.2.4
-    - 3.2.6
-    - 3.2.7
-    - 3.2.9
-    - 3.2.10
-    - 3.2.11-preview.1
-    - 3.2.12
-    - 3.2.13
-    - 3.2.15
-    - 3.2.16
-    - 3.2.17
-    - 4.0.0-exp.2
-    - 4.0.0-pre.2
-    - 4.0.0-pre.3
-    - 4.0.1
-    - 4.0.3
-    - 4.0.5
-    - 4.0.6
-    - 4.0.7
-    - 4.1.0-pre.1
-    - 4.1.0-pre.2
-    - 4.1.0
-    - 4.2.0
-    - 4.2.1
-    - 4.3.1
-    - 4.3.3
-    - 4.4.0
-    - 4.4.1
-    - 4.5.0
-    - 4.5.1
-    compatible:
-    - 4.5.0
-    - 4.5.1
-    recommended: 4.5.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.7
-  resolvedDependencies:
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.12
-  keywords:
-  - xr
-  - sdk
-  - ar
-  - vr
-  - management
-  - build
-  - plugin
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638560264920000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.5/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-    revision: fa86b200cd8cd1b75a57534d44d41cc7b6b7f58d
-    path: 
-  unityLifecycle:
-    version: 4.5.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed compile errors on Unity versions
-    [2023.1.0f1 - 2023.2.6f1] caused by missing `BuildTargetGroup.VisionOS` enum
-    value.\n\n### Added\n- Added Android manifest support for applications that use
-    Game Activity entry point. Note that Game Activities are only supported in projects
-    made with Unity versions 2023.1 onwards."}'
-  assetStore:
-    productId: 
-  fingerprint: 3126858600e621b17ff9bfda920ebf34b9f2414c
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 4.5.0
-    minimumUnityVersion: 2020.3.15f1
-- packageId: com.unity.xr.legacyinputhelpers@2.1.12
-  testable: 0
-  isDirectDependency: 0
-  version: 2.1.12
-  source: 1
-  resolvedPath: "D:\\Olesya\\\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\\\u041C\u0418\u0420\u042D\u0410\\6
-    \u0441\u0435\u043C\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4"
-  assetPath: Packages/com.unity.xr.legacyinputhelpers
-  name: com.unity.xr.legacyinputhelpers
-  displayName: XR Legacy Input Helpers
-  author:
-    name: 
-    email: 
-    url: 
-  category: XR
-  type: 
-  description: This package includes the tracked pose driver for the legacy input
-    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
-    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
-    track input devices, the XR Bindings Seeding Tool adds a menu item under the
-    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
-    Bindings
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    - 1.0.2
-    - 1.0.3
-    - 1.3.1
-    - 1.3.2
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.11
-    - 2.0.1
-    - 2.0.2
-    - 2.0.4
-    - 2.0.6
-    - 2.0.8
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.6
-    - 2.1.7
-    - 2.1.8
-    - 2.1.9
-    - 2.1.10
-    - 2.1.11
-    - 2.1.12
-    compatible:
-    - 2.1.12
-    recommended: 2.1.12
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  keywords:
-  - TPD
-  - Tracked Pose Driver
-  - XR
-  - Input
-  - Helpers
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638738251595540000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-    revision: 7750ba101d791f0c673ae87cd654d1ac84f87f24
-    path: 
-  unityLifecycle:
-    version: 2.1.12
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed camera projection type when converting
-    an existing camera to an **XR Rig** to ensure resulting camera is not set to
-    orthographic ([XRLIH-5](https://issuetracker.unity3d.com/product/unity/issues/guid/XRLIH-5))."}'
-  assetStore:
-    productId: 
-  fingerprint: b7579e86f3b456c909fda6b875fba7ab1eeb1322
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.1.12
-    minimumUnityVersion: 2019.4.0a1
-- packageId: com.unity.mathematics@1.3.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.3.2
-  source: 1
-  resolvedPath: "D:\\Olesya\\\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\\\u041C\u0418\u0420\u042D\u0410\\6
-    \u0441\u0435\u043C\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74"
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    compatible:
-    - 1.3.2
-    recommended: 1.3.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 1695a8503482a3131be78cc26308a93f82c05b04
-    path: 
-  unityLifecycle:
-    version: 1.3.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
-    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
-    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
-    Updated minimum editor version to 2021.3"}'
-  assetStore:
-    productId: 
-  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.3.2
-    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
@@ -5769,13 +4779,9 @@ m_ResolvedPackages:
     - 1.8.17
     - 1.8.18
     - 1.8.19
-    - 1.8.20
-    - 1.8.21
     compatible:
     - 1.8.19
-    - 1.8.20
-    - 1.8.21
-    recommended: 1.8.21
+    recommended: 1.8.19
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -5843,6 +4849,96 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.19
     minimumUnityVersion: 2020.3.0a1
+- packageId: com.unity.mathematics@1.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.2
+  source: 1
+  resolvedPath: "D:\\Olesya\\\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\\\u041C\u0418\u0420\u042D\u0410\\6
+    \u0441\u0435\u043C\\Unity\\Unity_PR\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74"
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    compatible:
+    - 1.3.2
+    recommended: 1.3.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638409134840000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    path: 
+  unityLifecycle:
+    version: 1.3.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
+    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
+    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
+    Updated minimum editor version to 2021.3"}'
+  assetStore:
+    productId: 
+  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.2
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.collections@2.5.1
   testable: 0
   isDirectDependency: 0
@@ -5913,7 +5009,6 @@ m_ResolvedPackages:
     - 1.3.1
     - 1.4.0
     - 1.5.1
-    - 1.5.2
     - 2.1.0-exp.4
     - 2.1.0-pre.2
     - 2.1.0-pre.6
@@ -5937,15 +5032,13 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.5.3
-    - 2.5.7
     - 2.6.0-exp.2
     compatible:
     - 2.5.1
     - 2.5.2
     - 2.5.3
-    - 2.5.7
     - 2.6.0-exp.2
-    recommended: 2.5.7
+    recommended: 2.5.3
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -6271,10 +5364,8 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.0.2
     - 3.0.3
-    - 3.1.0
     compatible:
     - 3.0.3
-    - 3.1.0
     recommended: 3.0.3
     deprecated: []
   dependencies:
