@@ -295,6 +295,41 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.Multiplayer.Tools.Common.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Multiplayer.Tools.Common.Visualization.CustomColorSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Netcode.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Netcode.NetworkManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Netcode.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Netcode.NetworkObject",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Netcode.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Netcode.NetworkPrefabsList",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Netcode.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Netcode.Transports.UTP.UnityTransport",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AnimatorController",
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
@@ -1495,6 +1530,27 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.VerticalLayoutGroup",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UIElements.PanelSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UIElements.StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UIElements.ThemeStyleSheet",
             "moduleName": "",
             "usedInScenes": []
         }

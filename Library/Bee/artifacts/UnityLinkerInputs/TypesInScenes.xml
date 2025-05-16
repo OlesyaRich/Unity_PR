@@ -30,6 +30,15 @@
 		<type fullname="UnityEngine.InputSystem.RemoteInputPlayerConnection" preserve="nothing"/>
 		<type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Unity.Multiplayer.Tools.Common">
+		<type fullname="Unity.Multiplayer.Tools.Common.Visualization.CustomColorSettings" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.Netcode.Runtime">
+		<type fullname="Unity.Netcode.NetworkManager" preserve="nothing"/>
+		<type fullname="Unity.Netcode.NetworkObject" preserve="nothing"/>
+		<type fullname="Unity.Netcode.NetworkPrefabsList" preserve="nothing"/>
+		<type fullname="Unity.Netcode.Transports.UTP.UnityTransport" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
 		<type fullname="UnityEngine.Rendering.ProbeVolumesOptions" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerBitField" preserve="nothing"/>
@@ -183,5 +192,10 @@
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Toggle" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UIElementsModule">
+		<type fullname="UnityEngine.UIElements.PanelSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.UIElements.StyleSheet" preserve="nothing"/>
+		<type fullname="UnityEngine.UIElements.ThemeStyleSheet" preserve="nothing"/>
 	</assembly>
 </linker>

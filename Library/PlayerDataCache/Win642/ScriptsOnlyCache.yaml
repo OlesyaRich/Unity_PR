@@ -17,8 +17,6 @@ ScriptsOnlyBuild:
     - SoundSmoke
     - SpeedZone
     - ToNextScene
-    Unity.AI.Navigation.Editor.dll:
-    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshLink
     - Unity.AI.Navigation.NavMeshModifierVolume
@@ -30,6 +28,15 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Multiplayer.Tools.Common.dll:
+    - Unity.Multiplayer.Tools.Common.Visualization.CustomColorSettings
+    Unity.Netcode.Editor.dll:
+    - Unity.Netcode.Editor.Configuration.NetcodeForGameObjectsProjectSettings
+    Unity.Netcode.Runtime.dll:
+    - Unity.Netcode.NetworkManager
+    - Unity.Netcode.NetworkObject
+    - Unity.Netcode.NetworkPrefabsList
+    - Unity.Netcode.Transports.UTP.UnityTransport
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -96,8 +103,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -109,8 +114,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -144,6 +147,12 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputBinding
     - UnityEngine.InputSystem.InputControlScheme
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    Unity.Netcode.Runtime:
+    - Unity.Netcode.NetworkConfig
+    - Unity.Netcode.NetworkPrefab
+    - Unity.Netcode.NetworkPrefabs
+    - Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData
+    - Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.APVLeakReductionModeParameter
     - UnityEngine.Rendering.BoolParameter
@@ -247,6 +256,17 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
+    UnityEngine.UIElementsModule:
+    - UnityEngine.UIElements.DynamicAtlasSettings
+    - UnityEngine.UIElements.StyleComplexSelector
+    - UnityEngine.UIElements.StyleProperty
+    - UnityEngine.UIElements.StyleRule
+    - UnityEngine.UIElements.StyleSelector
+    - UnityEngine.UIElements.StyleSelectorPart
+    - UnityEngine.UIElements.StyleSheet/ImportStruct
+    - UnityEngine.UIElements.StyleSheets.Dimension
+    - UnityEngine.UIElements.StyleSheets.ScalableImage
+    - UnityEngine.UIElements.StyleValueHandle
   methodsToPreserve:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -331,15 +351,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 18734}
+      Script: {instanceID: 18738}
     - Class: 114
-      Script: {instanceID: 19188}
+      Script: {instanceID: 19192}
     - Class: 114
-      Script: {instanceID: 19928}
+      Script: {instanceID: 19932}
     - Class: 114
-      Script: {instanceID: 21486}
+      Script: {instanceID: 21490}
     - Class: 114
-      Script: {instanceID: 24036}
+      Script: {instanceID: 24040}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -384,33 +404,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13944}
+      Script: {instanceID: 13946}
     - Class: 114
-      Script: {instanceID: 14388}
+      Script: {instanceID: 14390}
     - Class: 114
-      Script: {instanceID: 15158}
+      Script: {instanceID: 15160}
     - Class: 114
-      Script: {instanceID: 15608}
+      Script: {instanceID: 15610}
     - Class: 114
-      Script: {instanceID: 16004}
+      Script: {instanceID: 16006}
     - Class: 114
-      Script: {instanceID: 17742}
+      Script: {instanceID: 17746}
     - Class: 114
-      Script: {instanceID: 18734}
+      Script: {instanceID: 18738}
     - Class: 114
-      Script: {instanceID: 20244}
+      Script: {instanceID: 20248}
     - Class: 114
-      Script: {instanceID: 21486}
+      Script: {instanceID: 21490}
     - Class: 114
-      Script: {instanceID: 22120}
+      Script: {instanceID: 22124}
     - Class: 114
-      Script: {instanceID: 22908}
+      Script: {instanceID: 22912}
     - Class: 114
-      Script: {instanceID: 23870}
+      Script: {instanceID: 23874}
     - Class: 114
-      Script: {instanceID: 23970}
+      Script: {instanceID: 23974}
     - Class: 114
-      Script: {instanceID: 24682}
+      Script: {instanceID: 24686}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -473,145 +493,159 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13944}
+      Script: {instanceID: 858}
     - Class: 114
-      Script: {instanceID: 14104}
+      Script: {instanceID: 860}
     - Class: 114
-      Script: {instanceID: 14344}
+      Script: {instanceID: 882}
     - Class: 114
-      Script: {instanceID: 14564}
+      Script: {instanceID: 13946}
     - Class: 114
-      Script: {instanceID: 14710}
+      Script: {instanceID: 14106}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 14346}
     - Class: 114
-      Script: {instanceID: 14830}
+      Script: {instanceID: 14566}
     - Class: 114
-      Script: {instanceID: 15024}
+      Script: {instanceID: 14712}
     - Class: 114
-      Script: {instanceID: 15158}
+      Script: {instanceID: 14746}
     - Class: 114
-      Script: {instanceID: 15410}
+      Script: {instanceID: 14832}
     - Class: 114
-      Script: {instanceID: 15950}
+      Script: {instanceID: 15026}
     - Class: 114
-      Script: {instanceID: 16004}
+      Script: {instanceID: 15160}
     - Class: 114
-      Script: {instanceID: 16154}
+      Script: {instanceID: 15412}
     - Class: 114
-      Script: {instanceID: 16196}
+      Script: {instanceID: 15952}
     - Class: 114
-      Script: {instanceID: 16292}
+      Script: {instanceID: 16006}
     - Class: 114
-      Script: {instanceID: 16376}
+      Script: {instanceID: 16156}
     - Class: 114
-      Script: {instanceID: 16462}
+      Script: {instanceID: 16198}
     - Class: 114
-      Script: {instanceID: 16498}
+      Script: {instanceID: 16294}
     - Class: 114
-      Script: {instanceID: 16552}
+      Script: {instanceID: 16378}
     - Class: 114
-      Script: {instanceID: 16584}
+      Script: {instanceID: 16464}
     - Class: 114
-      Script: {instanceID: 16616}
+      Script: {instanceID: 16500}
     - Class: 114
-      Script: {instanceID: 17106}
+      Script: {instanceID: 16554}
     - Class: 114
-      Script: {instanceID: 17446}
+      Script: {instanceID: 16586}
     - Class: 114
-      Script: {instanceID: 17754}
+      Script: {instanceID: 16618}
     - Class: 114
-      Script: {instanceID: 18434}
+      Script: {instanceID: 16956}
     - Class: 114
-      Script: {instanceID: 18472}
+      Script: {instanceID: 17110}
     - Class: 114
-      Script: {instanceID: 18734}
+      Script: {instanceID: 17450}
     - Class: 114
-      Script: {instanceID: 18822}
+      Script: {instanceID: 17758}
     - Class: 114
-      Script: {instanceID: 18846}
+      Script: {instanceID: 18438}
     - Class: 114
-      Script: {instanceID: 18884}
+      Script: {instanceID: 18476}
     - Class: 114
-      Script: {instanceID: 18960}
+      Script: {instanceID: 18738}
     - Class: 114
-      Script: {instanceID: 19038}
+      Script: {instanceID: 18826}
     - Class: 114
-      Script: {instanceID: 19146}
+      Script: {instanceID: 18850}
     - Class: 114
-      Script: {instanceID: 19188}
+      Script: {instanceID: 18888}
     - Class: 114
-      Script: {instanceID: 19304}
+      Script: {instanceID: 18964}
     - Class: 114
-      Script: {instanceID: 19726}
+      Script: {instanceID: 19042}
     - Class: 114
-      Script: {instanceID: 19902}
+      Script: {instanceID: 19150}
     - Class: 114
-      Script: {instanceID: 19928}
+      Script: {instanceID: 19192}
     - Class: 114
-      Script: {instanceID: 20000}
+      Script: {instanceID: 19308}
     - Class: 114
-      Script: {instanceID: 20002}
+      Script: {instanceID: 19730}
     - Class: 114
-      Script: {instanceID: 20244}
+      Script: {instanceID: 19906}
     - Class: 114
-      Script: {instanceID: 20950}
+      Script: {instanceID: 19932}
     - Class: 114
-      Script: {instanceID: 21054}
+      Script: {instanceID: 20004}
     - Class: 114
-      Script: {instanceID: 21486}
+      Script: {instanceID: 20006}
     - Class: 114
-      Script: {instanceID: 21508}
+      Script: {instanceID: 20248}
     - Class: 114
-      Script: {instanceID: 22086}
+      Script: {instanceID: 20954}
     - Class: 114
-      Script: {instanceID: 22278}
+      Script: {instanceID: 21058}
     - Class: 114
-      Script: {instanceID: 22398}
+      Script: {instanceID: 21490}
     - Class: 114
-      Script: {instanceID: 22462}
+      Script: {instanceID: 21512}
     - Class: 114
-      Script: {instanceID: 22860}
+      Script: {instanceID: 22090}
     - Class: 114
-      Script: {instanceID: 22914}
+      Script: {instanceID: 22282}
     - Class: 114
-      Script: {instanceID: 23094}
+      Script: {instanceID: 22402}
     - Class: 114
-      Script: {instanceID: 23188}
+      Script: {instanceID: 22466}
     - Class: 114
-      Script: {instanceID: 23260}
+      Script: {instanceID: 22864}
     - Class: 114
-      Script: {instanceID: 23352}
+      Script: {instanceID: 22918}
     - Class: 114
-      Script: {instanceID: 23760}
+      Script: {instanceID: 23098}
     - Class: 114
-      Script: {instanceID: 23868}
+      Script: {instanceID: 23192}
     - Class: 114
-      Script: {instanceID: 23916}
+      Script: {instanceID: 23264}
     - Class: 114
-      Script: {instanceID: 23948}
+      Script: {instanceID: 23356}
     - Class: 114
-      Script: {instanceID: 23970}
+      Script: {instanceID: 23764}
     - Class: 114
-      Script: {instanceID: 24036}
+      Script: {instanceID: 23872}
     - Class: 114
-      Script: {instanceID: 24104}
+      Script: {instanceID: 23920}
     - Class: 114
-      Script: {instanceID: 24190}
+      Script: {instanceID: 23952}
     - Class: 114
-      Script: {instanceID: 24220}
+      Script: {instanceID: 23974}
     - Class: 114
-      Script: {instanceID: 24366}
+      Script: {instanceID: 24040}
     - Class: 114
-      Script: {instanceID: 24600}
+      Script: {instanceID: 24108}
     - Class: 114
-      Script: {instanceID: 24682}
+      Script: {instanceID: 24194}
     - Class: 114
-      Script: {instanceID: 24894}
+      Script: {instanceID: 24224}
     - Class: 114
-      Script: {instanceID: 25056}
+      Script: {instanceID: 24370}
     - Class: 114
-      Script: {instanceID: 51032}
+      Script: {instanceID: 24604}
+    - Class: 114
+      Script: {instanceID: 24686}
+    - Class: 114
+      Script: {instanceID: 24898}
+    - Class: 114
+      Script: {instanceID: 25060}
+    - Class: 114
+      Script: {instanceID: 44556}
+    - Class: 114
+      Script: {instanceID: 45168}
+    - Class: 114
+      Script: {instanceID: 45496}
+    - Class: 114
+      Script: {instanceID: 45812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1191,6 +1225,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 25483304bc1f5cac4914e984d36f4aad
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ToNextScene
   - hash:
       serializedVersion: 2
       Hash: c7461ddb2926b22edcbffe17bf941824
@@ -2327,14 +2367,122 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 25483304bc1f5cac4914e984d36f4aad
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ToNextScene
+      Hash: 672cd01ec54dbb8ec56d40e1917be34a
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Transports.UTP
+    className: UnityTransport
+  - hash:
+      serializedVersion: 2
+      Hash: 246af38305cd3e613460cb6f859a6337
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: NetworkAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: dda83e2ed161157731c3ed1e896e9747
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: NetworkRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5ba06da96b89cac36dea64098dbb3061
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: ef39134ba89ab397bae8987429f18c6a
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: RigidbodyContactEventManager
+  - hash:
+      serializedVersion: 2
+      Hash: dcf09bd0c10fdebbdd02b722d24cbfe3
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode
+    className: NetworkObject
+  - hash:
+      serializedVersion: 2
+      Hash: cdbf629ac32f9205d78041dd435d1f6e
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Transports.UTP
+    className: SecretsLoaderHelper
+  - hash:
+      serializedVersion: 2
+      Hash: fab6bbba359446a75b28d3c1a4cccc4a
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode
+    className: NetworkPrefabsList
+  - hash:
+      serializedVersion: 2
+      Hash: e76b442cf7afadf5c5a087f68352d8f9
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: NetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 3997a51384e12432309a83287d9a7579
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode
+    className: NetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 53fd4702427b9b6b0fa00dea9512de2f
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: AnticipatedNetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: a0e0bc431a5a05794fcf44452b3eb06a
+    assemblyName: Unity.Multiplayer.Tools.NetStatsMonitor.Configuration
+    namespaceName: Unity.Multiplayer.Tools.NetStatsMonitor
+    className: NetStatsMonitorConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: cc5928d890d9cab453e819fd03e1a089
+    assemblyName: Unity.Multiplayer.Tools.NetStatsMonitor.Component
+    namespaceName: Unity.Multiplayer.Tools.NetStatsMonitor
+    className: CustomTestDataGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: a2384241e8275373f9892a8b72196ac8
+    assemblyName: Unity.Multiplayer.Tools.Common
+    namespaceName: Unity.Multiplayer.Tools.Common.Visualization
+    className: CustomColorSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 27c1acc8ffcdf63369952d4c1f06ba85
+    assemblyName: Unity.Multiplayer.Tools.NetworkSimulator.Runtime
+    namespaceName: Unity.Multiplayer.Tools.NetworkSimulator.Runtime
+    className: NetworkSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 0a57a93a2cc15db4d96d1036c9295e04
+    assemblyName: Unity.Multiplayer.Tools.NetStatsMonitor.Component
+    namespaceName: Unity.Multiplayer.Tools.NetStatsMonitor
+    className: RuntimeNetStatsMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: b55e4d744578b5b9d59d03bb89f89039
+    assemblyName: Unity.Multiplayer.Tools.MetricTestData
+    namespaceName: Unity.Multiplayer.Tools.MetricTestData
+    className: TestDataGeneratorComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 726ffba1f5a3799bf5bae0c43d981742
+    assemblyName: Unity.Multiplayer.Tools.NetworkSimulator.Runtime
+    namespaceName: Unity.Multiplayer.Tools.NetworkSimulator.Runtime
+    className: NetworkSimulatorPresetAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b86c264625e300524d8839ad5dcf3860
+    assemblyName: Unity.Multiplayer.Tools.Common
+    namespaceName: Unity.Multiplayer.Tools.Common
+    className: RuntimeUpdaterBehaviour
   platform: 19
   scenePathNames:
   - Assets/Scenes/Project.unity
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level 2.unity
   playerPath: "D:/Olesya/\u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442/\u041C\u0418\u0420\u042D\u0410/6
-    \u0441\u0435\u043C/Unity/My project.exe"
+    \u0441\u0435\u043C/Unity/Build_Game/My project.exe"
